@@ -19,7 +19,7 @@ export default function Login() {
       setMessage("Login failed: " + err.response?.data?.detail);
     }
   };
-// hello
+// hello jjk
   const handleGoogleLogin = () => {
     window.location.href = "http://localhost:8000/auth/google/login/";
   };
